@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tattoo Artist Hott | Miami Tattoo Artist</title>
+
+<meta name="description" content="Tattoo Artist Hott — professional tattoo artist in Miami, Florida. Custom tattoos, realism, black and grey, lettering and color work.">
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#080808;
+    color:#fff;
+    font-family:Arial,Helvetica,sans-serif;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:rgba(8,8,8,.95);
+    border-bottom:1px solid #222;
+    padding:18px 6%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:900;
+    letter-spacing:1px;
+}
+
+.logo span{
+    color:#d4af37;
+}
+
+nav a{
+    margin-left:22px;
+    font-size:14px;
+    color:#ccc;
+}
+
+nav a:hover{
+    color:#d4af37;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:80px 20px;
+    background:
+    radial-gradient(circle at center,#292929 0%,#111 35%,#080808 75%);
+}
+
+.hero-content{
+    max-width:800px;
+}
+
+.badge{
+    display:inline-block;
+    border:1px solid #555;
+    border-radius:30px;
+    padding:8px 18px;
+    color:#ccc;
+    font-size:13px;
+    margin-bottom:25px;
+}
+
+h1{
+    font-size:clamp(45px,10vw,90px);
+    line-height:1;
+    text-transform:uppercase;
+    letter-spacing:-3px;
+}
+
+.gold{
+    color:#d4af37;
+}
+
+.hero p{
+    max-width:650px;
+    margin:25px auto;
+    color:#aaa;
+    font-size:18px;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 25px;
+    border-radius:5px;
+    margin:6px;
+    font-weight:bold;
+    transition:.2s;
+}
+
+.btn-primary{
+    background:#d4af37;
+    color:#080808;
+}
+
+.btn-primary:hover{
+    background:#fff;
+}
+
+.btn-outline{
+    border:1px solid #555;
+    color:#fff;
+}
+
+.btn-outline:hover{
+    border-color:#d4af37;
+    color:#d4af37;
+}
+
+section{
+    padding:85px 6%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.section-title h2{
+    font-size:38px;
+    text-transform:uppercase;
+}
+
+.section-title p{
+    color:#888;
+    margin-top:8px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:18px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.card{
+    background:#111;
+    border:1px solid #252525;
+    padding:30px 22px;
+    min-height:170px;
+    transition:.25s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#d4af37;
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#d4af37;
+}
+
+.card p{
+    color:#999;
+    font-size:14px;
+}
+
+.portfolio{
+    background:#0d0d0d;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.gallery-box{
+    height:280px;
+    background:linear-gradient(135deg,#252525,#101010);
+    border:1px solid #292929;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#777;
+    font-size:14px;
+}
+
+.about{
+    max-width:850px;
+    margin:auto;
+    text-align:center;
+}
+
+.about p{
+    color:#aaa;
+    margin-top:18px;
+    font-size:17px;
+}
+
+.contact{
+    text-align:center;
+    background:#111;
+}
+
+.contact-box{
+    max-width:650px;
+    margin:auto;
+}
+
+.contact-box p{
+    color:#aaa;
+    margin:15px 0;
+}
+
+.email{
+    display:inline-block;
+    margin:20px 0;
+    color:#d4af37;
+    font-size:18px;
+    font-weight:bold;
+    word-break:break-word;
+}
+
+footer{
+    padding:30px 20px;
+    text-align:center;
+    color:#666;
+    border-top:1px solid #222;
+    font-size:13px;
+}
+
+.social{
+    margin-top:15px;
+}
+
+.social a{
+    color:#d4af37;
+    margin:0 8px;
+}
+
+@media(max-width:600px){
+    nav{
+        display:none;
+    }
+
+    section{
+        padding:65px 5%;
+    }
+
+    h1{
+        letter-spacing:-2px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">TATTOO <span>ARTIST HOTT</span></div>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Book</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="badge">MIAMI, FLORIDA</div>
+
+        <h1>
+            INK THAT<br>
+            <span class="gold">TELLS YOUR STORY.</span>
+        </h1>
+
+        <p>
+            Custom tattoo artistry created with precision,
+            creativity and attention to detail.
+        </p>
+
+        <div class="buttons">
+            <a class="btn btn-primary" href="#contact">BOOK A TATTOO</a>
+            <a class="btn btn-outline" href="#portfolio">VIEW PORTFOLIO</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="services">
+
+    <div class="section-title">
+        <h2>Services</h2>
+        <p>Custom work made for you.</p>
+    </div>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Custom Tattoos</h3>
+            <p>Original tattoo concepts designed around your vision and story.</p>
+        </div>
+
+        <div class="card">
+            <h3>Black & Grey</h3>
+            <p>Detailed black and grey pieces with strong shading and depth.</p>
+        </div>
+
+        <div class="card">
+            <h3>Realism</h3>
+            <p>Portraits and realistic tattoo designs with fine detail.</p>
+        </div>
+
+        <div class="card">
+            <h3>Lettering</h3>
+            <p>Custom lettering, names, quotes and meaningful words.</p>
+        </div>
+
+        <div class="card">
+            <h3>Color Tattoos</h3>
+            <p>Bold and vibrant color pieces created to stand out.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cover-Ups</h3>
+            <p>Creative designs that transform unwanted tattoos into new art.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="portfolio" class="portfolio">
+
+    <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>Recent tattoo work.</p>
+    </div>
+
+    <div class="gallery">
+
+        <div class="gallery-box">PORTFOLIO PHOTO 01</div>
+
+        <div class="gallery-box">PORTFOLIO PHOTO 02</div>
+
+        <div class="gallery-box">PORTFOLIO PHOTO 03</div>
+
+        <div class="gallery-box">PORTFOLIO PHOTO 04</div>
+
+        <div class="gallery-box">PORTFOLIO PHOTO 05</div>
+
+        <div class="gallery-box">PORTFOLIO PHOTO 06</div>
+
+    </div>
+
+</section>
+
+<section id="about">
+
+    <div class="section-title">
+        <h2>About Tattoo Artist Hott</h2>
+    </div>
+
+    <div class="about">
+
+        <p>
+            Tattoo Artist Hott is a Miami-based tattoo artist
+            focused on creating custom pieces that are personal,
+            detailed and built to stand out.
+        </p>
+
+        <p>
+            From black and grey work to realism, lettering and
+            color tattoos, every piece is approached with care
+            and attention to detail.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+    <div class="contact-box">
+
+        <div class="section-title">
+            <h2>Book Your Tattoo</h2>
+            <p>Ready to bring your idea to life?</p>
+        </div>
+
+        <p>
+            Send your tattoo idea, placement, approximate size
+            and preferred date.
+        </p>
+
+        <a class="email" href="mailto:scotthott1@outlook.com">
+            scotthott1@outlook.com
+        </a>
+
+        <div class="buttons">
+
+            <a class="btn btn-primary"
+               href="mailto:scotthott1@outlook.com?subject=Tattoo%20Booking%20Request">
+                EMAIL TO BOOK
+            </a>
+
+            <a class="btn btn-outline"
+               href="https://x.com/Hotmailtl"
+               target="_blank">
+                FOLLOW ON X
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div>
+        © 2026 Tattoo Artist Hott — Miami, Florida
+    </div>
+
+    <div class="social">
+        <a href="https://x.com/Hotmailtl" target="_blank">@Hotmailtl</a>
+        <a href="mailto:scotthott1@outlook.com">Email</a>
+    </div>
+
+</footer>
+
+</body>
+  </html>
